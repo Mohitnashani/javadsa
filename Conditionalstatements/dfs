@@ -1,0 +1,12 @@
+import java.util.*;
+
+public class passorfail{
+    public static void main(String args[]){
+        Scanner sc=new Scanner(System.in);
+        float marks=sc.nextFloat();
+        if (marks>33.3){
+            System.out.println("Student is passed");
+        }
+        else{System.out.println("Student is failed");}
+    }
+}
